@@ -9,13 +9,13 @@
         <div class="card-body">
             <table class="table table-striped">
                 <thead>
-                  <tr>
-                    <th scope="col">Title</th>
-                    <th scope="col">Slug</th>
-                    <th scope="col">Text</th>
-                    <th scope="col">Status</th>
-                    <th scope="col">Buttons</th>
-                  </tr>
+                    <tr>
+                        <th scope="col">Title</th>
+                        <th scope="col">Slug</th>
+                        <th scope="col">Text</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Buttons</th>
+                    </tr>
                 </thead>
                 <tbody>
                     @foreach ($posts as $post)
@@ -41,7 +41,7 @@
                     </tr>
                     @endforeach
                 </tbody>
-              </table>
+            </table>
         </div>
     </div>
 </div>
